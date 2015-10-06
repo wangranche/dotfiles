@@ -44,7 +44,7 @@ $ xcode-select --install
 使用 git clone 一份到 `$HOME` 目录底下的 `.dotfiles` 文件夹里面:
 
 ```bash
-$ git clone git@github.com:zoumo/dotfiles.git ~/.dotfiles
+$ git clone git@github.com:wangranche/dotfiles.git ~/.dotfiles
 ```
 
 進入 `.dotfiles` 文件夹, 然后安装dotfiles:
