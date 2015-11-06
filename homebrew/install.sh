@@ -7,18 +7,81 @@
 
 # Binaries
 binaries=(
-  dos2unix
-  wget
-  python
+  autoconf
+  autojump
+  automake
+  boost
+  brew-cask
+  cmake
+  coreutils
   ctags
-  grc
+  dos2unix
+  figlet
+  findutils
+  freetype
+  gcc
+  gdbm
+  gearman
+  geoip
+  git
   git-flow
-  tree
+  gmp
+  graphicsmagick
+  grc
+  heroku-toolbelt
+  htop-osx
+  hub
+  imagemagick
+  isl
+  jpeg
+  libevent
+  libgpg-error
+  libksba
+  libmpc
+  libpng
+  libtiff
+  libtool
+  libyaml
   mackup
-  z
+  mpfr
+  multitail
+  mysql
+  node
+  numpy
+  nvm
+  openssl
+  pcre
+  pkg-config
+  postgresql
+  proxychains-ng
+  pyqt
+  python
+  qt
+  rbenv
+  rcm
+  readline
+  reattach-to-user-namespace
+  redis
+  ruby-build
+  sip
+  source-highlight
+  sqlite
+  swig
+  the_silver_searcher
+  thefuck
   tmux
-  htop
   trash
+  tree
+  unar
+  vim
+  watch
+  wget
+  xz
+  z
+  zeromq
+  zsh
+  zsh-completions
+  zsh-syntax-highlighting
   # mysql
   # nginx
   # node
@@ -36,41 +99,37 @@ binaries=(
 
 # Apps
 apps=(
-  # java
-  google-chrome
-  qq
-  macdown  # markdown编辑器
-  iterm2 # 加强版终端
-  scroll-reverser  # 可以分别鼠标和触控板滚动方向
-  # goagentx  # FQ
-  slate  # 开源免费的桌面窗口控制调整工具
-  # qlcolorcode
-  # qlmarkdown
-  # qlstephen
-  beyond-compare  # 优秀的文件比较软件
-  the-unarchiver  # 免费的解压软件
-  # sequel-pro  # mysql客户端
-  # clipmenu  # 粘贴版扩展 0.4.3
-  # sourcetree  # git 管理
-  movist  # 播放器
-  lingon-x # 启动项管理
-  appzapper  # app卸载器
+  androidtool # android逆向工具
+  atom #编辑器
+  bettertouchtool #触控板强化
+  betterzipql #解压缩软件
+  beyond-compare #文件比较神器
+  charles #抓包工具
+  cheatsheet #按住command就会弹窗提醒你常用的命令
+  clipmenu #这个得翻墙下载,安装包在dropbox,但是是很赞的剪贴板收集工具
+  dropbox #配合翻墙使用的云同步软件
+  filezilla #FTP工具
+  google-drive #谷歌云盘
+  iterm2 #最好用的terminal
+  jitouch #触控版功能加强
+  launchrocket 
+  qlcolorcode
+  qlimagesize
+  qlmarkdown
+  qlprettypatch
+  qlstephen
+  quicklook-csv
+  quicklook-json 
+  webpquicklook #这几个软件都是强化各种格式的预览
+  scroll-reverser #鼠标和触控板下滑的方向相反
+  skim #pdf阅读软件
+  slate #窗口调整
+  sourcetree #github客户端
+  spectacle #窗口大小调节的吧
+  the-unarchiver #解压缩软件
+  visual-studio-code #微软出品的编辑器
   xtrafinder  # 加强finder
-  # mou
-  # alfred
-  # dash
-  # evernote
-  # flux
-  # keka
-  # kitematic
-  # obs
-  # recordit
-  # slack
-  # steam
-  # sublime-text3
-  # todoist
-  # virtualbox
-  # vlc
+  
 )
 
 # Fonts
