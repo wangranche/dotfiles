@@ -8,7 +8,7 @@
 这份 [dotfiles](https://github.com/wangranche/dotfiles) 是 fork 自 [zoumo's dotfiles](https://github.com/zoumo/dotfiles) 基于[Holman's dotfiles](https://github.com/holman/dotfiles)，并更加个人的需求进行了修改, 如果有兴趣欢迎fork一份回去配置适合自己的dotfiles。
 
 ## 修改说明:
-我删除了osx美化的内容,并添加了部分homebrew的插件等 请先自行查看脚本并根据自己的需求进行修改
+我删除了osx美化的内容,修改了zsh的主题插件alias等,并添加了部分homebrew的插件等 请先自行查看脚本并根据自己的需求进行修改
 
 更多的 dotfiles 请参考 [GitHub does dotfiles](https://dotfiles.github.io/)。
 
@@ -64,11 +64,10 @@ $ ./script/bootstrap
 2. 检查并安装 [Oh My Zsh](http://ohmyz.sh/)。
 3. 检查并链接 dotfiles(`.zshrc`, `.vimrc`, `.gitconfig`,` .gitignore`, ...)。
 4. 更新并安装 brew packages(binaries, fonts, apps)。
-5. 设置 Mac OS X 的 defaults settings。
-6. 安装python packages(powerline-status, pyenv, ...)
+5. 安装python packages(powerline-status, pyenv, ...)
 7. 对vim, ls, terminal进行美化, 主要是安装了solarized配色和powerline状态栏
 
-完成之后, 手动安装一些其他软件(Sublime3, Alfred, 以及一些较大的软件java, mysql, mongodb, nginx, jmeter)
+
 
 ## Restore backup
 
@@ -117,16 +116,12 @@ $ mackup restore
 - dotfiles 只專注在 **topic/*.symlink**、**topic/path.zsh** 的配置。
 
 
-## OS X
-
-`bin/dot` 会在`script/bootstrap`最后执行, 负责安装OS X的程序和修改系统配置
 
 执行 `$ dot` 之后，它会执行下面两个脚本:
 
 1. `$HOME/.dotfiles/homebrew/install.sh` - Homebrew packages
-2. `$HOME/.dotfiles/osx/set-defaults.sh` - OS X defaults setting
-3. `$HOME/.dotfiles/python/install.sh`   - Set up python env
-4. `$HOME/.dotfiles/beautify/install.sh` - beautify vim, terminal, ls
+2. `$HOME/.dotfiles/python/install.sh`   - Set up python env
+3. `$HOME/.dotfiles/beautify/install.sh` - beautify vim, terminal, ls
 
 ### Homebrew packages
 
@@ -221,7 +216,7 @@ apps=(
 | java | java |
 | robomango | mongodb客户端 |
 
-### OS X defaults setting
+### OS X defaults setting (已被取消)
 
 执行 `$ ./osx/set-defaults.sh` 之后，程序会更改Mac OS X的一些系统设置, 根据个人喜欢和需求修改这个文件，或是参考 [Mathias’s dotfiles](https://github.com/mathiasbynens/dotfiles/blob/master/.osx) 整理好的配置。
 
@@ -358,6 +353,9 @@ fi
 `vim ~/.vimrc` 添加下面的配置, 路径和字体改成自己的
 
 ```bash
+syntax on
+set background=dark
+colorscheme solarized
 set rtp+=${POWERLINE_ROOT}/bindings/vim
 set guifont=Meslo\ LG\ S\ DZ\ Regular\ for\ Powerline:h14
 set laststatus=2
