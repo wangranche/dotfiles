@@ -1,11 +1,14 @@
-# Jim does dotfiles
+# My dotfiles
 
 
 > The set of files used to describe session initialization procedures and store user customizations are commonly referred to as "dotfiles". These files can be used to customize screen appearance, shell behavior, program specifications and aspects of your Athena session. Most dotfiles are text files, although some exist in other formats. Dotfiles generally contain one command per line and are stored in your home directory. Dotfiles usually have names that begin with a period, hence the name dotfiles. You are given some dotfiles that are necessary for you to be able to login when you get your account.
 
 ![iMac-MacBook-flat](http://i.imgur.com/GBpjrHB.png)
 
-这份 [dotfiles](https://github.com/zoumo/dotfiles) 是 fork 自 [Amowu's dotfiles](https://github.com/amowu/dotfiles) 基于[Holman's dotfiles](https://github.com/holman/dotfiles)，并更加个人的需求进行了修改, 如果有兴趣欢迎fork一份回去配置适合自己的dotfiles。
+这份 [dotfiles](https://github.com/wangranche/dotfiles) 是 fork 自 [zoumo's dotfiles](https://github.com/zoumo/dotfiles) 基于[Holman's dotfiles](https://github.com/holman/dotfiles)，并更加个人的需求进行了修改, 如果有兴趣欢迎fork一份回去配置适合自己的dotfiles。
+
+## 修改说明:
+我删除了osx美化的内容,并添加了部分homebrew的插件等 请先自行查看脚本并根据自己的需求进行修改
 
 更多的 dotfiles 请参考 [GitHub does dotfiles](https://dotfiles.github.io/)。
 
@@ -510,4 +513,4 @@ I forked [Amowu](https://github.com/amowu/)'s [dotfiles](https://github.com/amow
 
 ## GitHub
 
-这是我的[dotfiles](https://github.com/zoumo/dotfiles)欢迎fork
+这是我的[dotfiles](https://github.com/wangranche/dotfiles)欢迎fork
