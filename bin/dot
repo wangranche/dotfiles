@@ -9,7 +9,7 @@
 sh $HOME/.dotfiles/homebrew/install.sh
 
 # Set OS X defaults
-sh $HOME/.dotfiles/osx/set-defaults.sh
+# sh $HOME/.dotfiles/osx/set-defaults.sh
 
 # Set up python env
 sh $HOME/.dotfiles/python/install.sh
