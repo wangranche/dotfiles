@@ -5,7 +5,7 @@ export ZSH=${HOME}/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -45,7 +45,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-flow brew)
+plugins=(git z atom sublime copydir autojump wd colored-man colorize npm perl terminalapp pip python osx git-flow brew)
 #plugins=(autojump)
 # User configuration
 
@@ -75,6 +75,12 @@ plugins=(git git-flow brew)
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias la='ls -A' #la命令缩写
+alias ipy='ipython qtconsole --ConsoleWidget.font_family="Consolas" --ConsoleWidget.font_size=13' #ipython的GUI界面
+alias pac='proxychains4' #终端走shadowsocks代理
+alias dazibao='figlet' #将所有字母编程大字符
+alias mypc='glances' #我的电脑信息一览
+alias gfw='isitup' #查看网站是否还能上的上去
 
 info () {
   printf "  [ \033[00;34m..\033[0m ] $1\n"
