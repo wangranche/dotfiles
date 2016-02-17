@@ -81,6 +81,13 @@ alias pac='proxychains4' #终端走shadowsocks代理
 alias dazibao='figlet' #将所有字母编程大字符
 alias mypc='glances' #我的电脑信息一览
 alias gfw='isitup' #查看网站是否还能上的上去
+alias lego='legofy' #https://github.com/JuanPotato/Legofy 将图片处理成乐高风格
+alias videodownload='you-get' #you-get pip插件 下载视频图片等
+alias markdown='madoko' #madoko命令行模式
+alias wangyiyun='musicbox' #网易云音乐命令行版本
+alias createapp='siphon' #siphon创建react native app
+alias sha1='shasum' #校验文件sha1值
+alias mulu='doctoc' #doctoc为markdown文件生成目录
 
 info () {
   printf "  [ \033[00;34m..\033[0m ] $1\n"
@@ -132,3 +139,11 @@ if [ -d "$DOTFILES" ];
   unset config_files
 fi
 
+
+#alias for cnpm
+alias cnpm="npm --registry=https://registry.npm.taobao.org \
+  --cache=$HOME/.npm/.cache/cnpm \
+  --disturl=https://npm.taobao.org/dist \
+  --userconfig=$HOME/.cnpmrc"
+
+export PATH="$HOME/.bin:$PATH"

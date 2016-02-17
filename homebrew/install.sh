@@ -6,82 +6,8 @@
 # using Homebrew.
 
 # Binaries
-binaries=(
-  autoconf
-  autojump
-  automake
-  boost
-  brew-cask
-  cmake
-  coreutils
-  ctags
-  dos2unix
-  figlet
-  findutils
-  freetype
-  gcc
-  gdbm
-  gearman
-  geoip
-  git
-  git-flow
-  gmp
-  graphicsmagick
-  grc
-  heroku-toolbelt
-  htop-osx
-  hub
-  imagemagick
-  isl
-  jpeg
-  libevent
-  libgpg-error
-  libksba
-  libmpc
-  libpng
-  libtiff
-  libtool
-  libyaml
-  mackup
-  mpfr
-  multitail
-  mysql
-  node
-  numpy
-  nvm
-  openssl
-  pcre
-  pkg-config
-  postgresql
-  proxychains-ng
-  pyqt
-  python
-  qt
-  rbenv
-  rcm
-  readline
-  reattach-to-user-namespace
-  redis
-  ruby-build
-  sip
-  source-highlight
-  sqlite
-  swig
-  the_silver_searcher
-  thefuck
-  tmux
-  trash
-  tree
-  unar
-  vim
-  watch
-  wget
-  xz
-  z
-  zeromq
-  zsh
-  zsh-completions
-  zsh-syntax-highlighting
+binaries=( autoconf autojump automake boost brew-cask cmake coreutils ctags dos2unix docker flow figlet findutils freetype gcc gdbm gearman gettextgeoip git git-flow gmp graphicsmagick grc heroku-toolbelt htop-osx hub imagemagick isl jpeg libevent libgpg-error libksba libmpc libpng libtiff libtool libyaml mackup mongodb mpfr mpg123 multitail mysql nginx node numpy nvm openssl pcre pkg-config postgresql proxychains-ng pyqt python python3 qt rbenv rcm readline reattach-to-user-namespace redis ruby-build scipy sip source-highlight sqlite sshfs swig the_silver_searcher thefuck tmux trash tree unar vim watch watchman wget xz z zeromq zsh zsh-completions zsh-syntax-highlighting )
+
   # mysql
   # nginx
   # node
@@ -95,7 +21,6 @@ binaries=(
   # ssh-copy-id
   # trash
 
-)
 
 # Apps
 apps=(
@@ -110,14 +35,17 @@ apps=(
   dropbox #配合翻墙使用的云同步软件
   filezilla #FTP工具
   google-drive #谷歌云盘
+  icons8
   iterm2 #最好用的terminal
   jitouch #触控版功能加强
   launchrocket 
+  mpv #播放器
   qlcolorcode
   qlimagesize
   qlmarkdown
   qlprettypatch
   qlstephen
+  qlvideo
   quicklook-csv
   quicklook-json 
   webpquicklook #这几个软件都是强化各种格式的预览
@@ -127,6 +55,8 @@ apps=(
   sourcetree #github客户端
   spectacle #窗口大小调节的吧
   the-unarchiver #解压缩软件
+  wine
+  winebottler #wine模拟器
   visual-studio-code #微软出品的编辑器
   xtrafinder  # 加强finder
   
